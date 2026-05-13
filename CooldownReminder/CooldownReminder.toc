@@ -1,0 +1,25 @@
+## Interface: 120000, 120001
+## Title: CooldownReminder
+## Notes: Timeline reminders for Season 1 Midnight dungeons
+## Author: OpenAI Codex
+## Version: 0.1.0
+## IconTexture: Interface\Icons\INV_Misc_EngGizmos_17
+## SavedVariables: CooldownReminderDB
+## AddonCompartmentFunc: CooldownReminder_OnAddonCompartmentClick
+## AddonCompartmentFuncOnEnter: CooldownReminder_OnAddonCompartmentEnter
+## AddonCompartmentFuncOnLeave: CooldownReminder_OnAddonCompartmentLeave
+
+Core/Addon.lua
+Core/Defaults.lua
+Core/Util.lua
+Core/Storage.lua
+Data/SeasonRegistry.lua
+Data/NexusPointXenas.lua
+Data/SeasonProof.lua
+Runtime/Scheduler.lua
+UI/Theme.lua
+UI/Widgets.lua
+UI/Editor.lua
+UI/MainWindow.lua
+UI/MinimapButton.lua
+Core/Slash.lua

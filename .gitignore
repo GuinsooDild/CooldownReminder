@@ -1,0 +1,20 @@
+.DS_Store
+**/.DS_Store
+
+# Local caches and disposable validation output
+.npm-cache/
+.npm-cache-local/
+.codex-ui-validation/
+node_modules/
+__pycache__/
+*.py[cod]
+
+# Read-only reference addons and historical control logs
+addon_examples/
+project_control/archive/
+
+# Local tooling artifacts
+.coverage
+coverage/
+dist/
+build/
